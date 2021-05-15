@@ -1,0 +1,41 @@
+<!-- Coding Debugging (https://codingdebugging.com) -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy Birthday</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts -->
+        <link rel="shortcut icon" type="image/jpg" href="https://www.pngrepo.com/png/229681/180/birthday-cake-cake.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <!-- My Stylesheet -->
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    
+    <body>
+        <div class="wish">
+            15/5
+        </div>
+        
+        <div class ="text">
+          Phương sanh nhật dui dẻ!!
+        </div>
+        
+        <audio id="HBD" loop>
+            <source src="../static/music.mp3">
+        </audio>
+        <!-- JavaScript Page -->
+        <script >
+            var a=1;
+            alert("Click cái nghe nhạc cho dui nè, :>> ️🎶️🎶️🎶");
+            window.addEventListener('click', function() {
+            var audio = document.getElementById("HBD");
+            audio.play();
+            a=a+1;
+            if(a%6==0){
+            alert("That ra la tao thich may, :>>");
+        }
+        }); 
+        </script>
+    </body>
+</html>
