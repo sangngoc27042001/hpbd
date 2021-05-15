@@ -27,12 +27,13 @@
         <!-- JavaScript Page -->
         <script >
             var a=1;
-            alert("Click cái nghe nhạc cho dui nè, :>> ️🎶️🎶️🎶");
+            alert("Click cho tới khi nghe nhạc cho dui nè, :>> ️🎶️🎶️🎶");
             window.addEventListener('click', function() {
-            var audio = document.getElementById("HBD");
-            audio.play();
+            
             a=a+1;
             if(a%6==0){
+                var audio = document.getElementById("HBD");
+            audio.play();
             alert("That ra la tao thich may, :>>");
         }
         }); 
